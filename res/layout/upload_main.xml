@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="0dp"
+    android:background="#000000"
+    tools:context="com.example.bvtest.MainActivity" >
+
+    <FrameLayout
+        android:id="@+id/up_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <Button
+            android:id="@+id/BasketballButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="0dp"
+            android:minHeight="@dimen/abc_action_bar_default_padding_end_material"
+            android:minWidth="@dimen/abc_action_bar_default_padding_end_material" />
+
+        <Button
+            android:id="@+id/VolleyballButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="0dp"
+            android:minHeight="@dimen/abc_action_bar_default_padding_end_material"
+            android:minWidth="@dimen/abc_action_bar_default_padding_end_material" />
+
+        <Button
+            android:id="@+id/SchoolButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minHeight="@dimen/abc_action_bar_default_padding_end_material"
+            android:minWidth="@dimen/abc_action_bar_default_padding_end_material" />
+
+        <Button
+            android:id="@+id/CommunityButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minHeight="@dimen/abc_action_bar_default_padding_end_material"
+            android:minWidth="@dimen/abc_action_bar_default_padding_end_material" />
+
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:hint="@string/NameExample"
+            android:minHeight="@dimen/abc_action_bar_default_padding_end_material"
+            android:minWidth="@dimen/abc_action_bar_default_padding_end_material" >
+
+            <requestFocus />
+        </EditText>
+
+         <Button
+            android:id="@+id/editTextCC"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minHeight="@dimen/abc_action_bar_default_padding_end_material"
+            android:minWidth="@dimen/abc_action_bar_default_padding_end_material" />
+
+         <Button
+            android:id="@+id/area"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minHeight="@dimen/abc_action_bar_default_padding_end_material"
+            android:minWidth="@dimen/abc_action_bar_default_padding_end_material" />
+
+        <EditText
+            android:id="@+id/lane"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:hint="@string/LaneExample"
+            android:minHeight="@dimen/abc_action_bar_default_padding_end_material"
+            android:minWidth="@dimen/abc_action_bar_default_padding_end_material" />
+
+        <EditText
+            android:id="@+id/num"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:inputType="number"
+            android:minHeight="@dimen/abc_action_bar_default_padding_end_material"
+            android:minWidth="@dimen/abc_action_bar_default_padding_end_material" />
+
+        <Button
+            android:id="@+id/ButtonNSand"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minHeight="@dimen/abc_action_bar_default_padding_end_material"
+            android:minWidth="@dimen/abc_action_bar_default_padding_end_material" />
+
+        <Button
+            android:id="@+id/ButtonSand"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minHeight="@dimen/abc_action_bar_default_padding_end_material"
+            android:minWidth="@dimen/abc_action_bar_default_padding_end_material" />
+
+        <Button
+            android:id="@+id/FinishButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </FrameLayout>
+
+</FrameLayout>

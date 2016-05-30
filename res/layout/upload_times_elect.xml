@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#000000" >
+
+    <FrameLayout
+        android:id="@+id/timeSelect"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+        
+        <com.example.bv.CustomNumberPicker
+                android:id="@+id/numberPicker1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:focusable="false" />
+        <com.example.bv.CustomNumberPicker
+                android:id="@+id/numberPicker2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:focusable="false" />
+        <com.example.bv.CustomNumberPicker
+                android:id="@+id/numberPicker3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:focusable="false" />
+        <com.example.bv.CustomNumberPicker
+                android:id="@+id/numberPicker4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:focusable="false" />
+        <com.example.bv.CustomNumberPicker
+                android:id="@+id/numberPicker5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:focusable="false" />
+        <com.example.bv.CustomNumberPicker
+                android:id="@+id/numberPicker6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:focusable="false" />
+
+        <Button
+            android:id="@+id/up_next_page"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#00000000" />
+
+    </FrameLayout>
+
+</FrameLayout>
